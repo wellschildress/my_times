@@ -1,1 +1,39 @@
+/* header */
+.header-container {
+  font-family: verdana, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  border-bottom: solid black 1px;
+  height: 80px;
+}
 
+.logo-box {
+  color: mediumaquamarine;
+  padding-left: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+span {
+  margin-left: 15px;
+  align-items: flex-end;
+  display: inline-flex;
+}
+
+a {
+  color: black;
+}
+
+nav {
+  display: inline-flex;
+  margin: 15px 15px;
+}
+
+nav span {
+  display: inline-block;
+}
