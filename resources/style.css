@@ -1,40 +1,97 @@
-/* header */
-.header-container {
-  font-family: verdana, sans-serif;
-  font-size: 14px;
-  font-weight: bold;
-  display: flex;
-  align-items: center;
-  width: 100%;
-  border-bottom: solid black 1px;
-  height: 80px;
-  position: fixed;
-  z-index: 1;
-}
-
-.logo-box {
-  color: mediumaquamarine;
-  padding-left: 30px;
-  display: flex;
-  align-items: center;
-}
-
-span {
-  margin-left: 15px;
-  display: inline-flex;
+/*Universal Styles*/
+body {
+  margin: 0;
+  font-family: georgia;
+  font-size: 17px;
+  color: black;
 }
 
 a {
   color: black;
 }
 
-nav {
-  display: inline-flex;
-  margin: 15px 15px;
+h2 {
+margin-top: 0;
+margin-bottom: 0;
+font-family: georgia;
+font-size: 30px;
+font-weight: bold;
+font-style: normal;
 }
 
 nav span {
   display: inline-block;
+  padding: 20px 10px;
+}
+
+/*Universal Styles - News Stories */
+.stories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+
+.stories .text-content {
+  height: 250px
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.narrative {
+  margin-top: 16px;
+}
+
+.image-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  margin-top: 15px;
+  font-family: georgia;
+  font-weight: bold;
+  font-size: 30px;
+  border: solid black 1px;
+  color: white;
+  text-align: center;
+}
+
+/* header */
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  height: 80px;
+  border-bottom: solid black 1px;
+  font-family: verdana, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.logo {
+  padding-left: 30px;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.logo img {
+  width: 70px;
+  height: 60px;
+  margin-right: 12px;
+}
+
+.logo span {
+  color: mediumaquamarine;
+}
+
+header nav {
+  padding-right: 40px;
 }
 
 /*main*/
@@ -61,23 +118,6 @@ nav span {
   margin-right: 32px;
 }
 
-.stories {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 117px;
-}
-
-.story {
-  display: flex;
-  flex-direction: column;
-  width: 300px;
-}
-
-.text-content {
-  display: block;
-  height: 250px;
-}
-
 .column.medium {
   width: 300px;
   border: solid black 1px;
@@ -99,23 +139,6 @@ p {
   border: solid black 1px;
 }
 
-.narrative {
-  border: solid black 1px;
-  margin-top: 16px;
-  display: block;
-}
-
-.image-block {
-  height: 300px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  border: solid black 1px;
-  font-family: georgia;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
-}
 
 .lead-story {
   width: 630px;
