@@ -99,7 +99,6 @@ header nav {
   display: flex;
   width: 1232px;
   margin: 0 auto 78px auto;
-  border: solid black 1px;
   padding-top: 116px;
 }
 
@@ -151,47 +150,33 @@ header nav {
 
 .column.small {
   width: 240px;
-  border: 1px solid black;
 }
 
-p {
-  font-family: georgia;
-  font-size: 17px;
-  color: black;
+img.cookie {
+  height: 240px;
+}
+
+.news-bites h3 {
+  margin-bottom: 41px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.news-bites .bite {
   display: block;
+  padding: 11px 20px;
+  border-bottom: 1px solid black;
+  background-color: whitesmoke;
+  font-family: verdana;
+  font-size: 12px;
+  color: DimGray;
+}
+
+.bite span {
+  padding-left: 11px;
 }
 
 .text-block {
   border: solid black 1px;
-}
-
-.image.lead-story {
-  font-family: georgia;
-  height: 300px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-
-.cookie.image-content {
-  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-news-bite.png);
-  height: 240px;
-}
-
-
-
-.news-bites h3 {
-font-size: 16px;
-font-weight: bold;
-margin-bottom: 41px;
-text-align: center;
-}
-
-.bite {
-  display: block;
-  background-color: whitesmoke;
-  font-family: verdana;
-  font-size: 12px;
-  border-bottom: 1px solid black;
 }
