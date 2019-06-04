@@ -54,7 +54,6 @@ nav span {
   font-family: georgia;
   font-weight: bold;
   font-size: 30px;
-  border: solid black 1px;
   color: white;
   text-align: center;
 }
@@ -113,7 +112,6 @@ header nav {
 
 .column.large {
   width: 630px;
-  border: solid black 1px;
 }
 
 .lead-story .image-content {
@@ -140,7 +138,6 @@ header nav {
 
 .column.medium {
   width: 300px;
-  border: solid black 1px;
 }
 
 .cat-ceo.image-content {
